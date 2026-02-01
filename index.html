@@ -435,5 +435,19 @@
 
     <!-- 添加弹窗和URL搜索参数处理脚本 -->
     <script src="js/index-page.js"></script>
+    <!-- 鼠标跟随光圈特效 -->
+<script src="https://cdn.jsdelivr.net/npm/magic-mouse-js@1.2.0/index.cdn.js"></script>
+<script>
+    magicMouse({
+        "cursorOuter": "circle-basic",
+        "hoverEffect": "circle-move",
+        "outerWidth": 35,
+        "outerHeight": 35
+    });
+</script>
+<style>
+    /* 让光圈半透明，更符合毛玻璃风格 */
+    .magic-mouse-outer { border-color: rgba(255,255,255,0.4) !important; }
+</style>
 </body>
 </html>
