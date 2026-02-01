@@ -161,7 +161,6 @@ const API_SITES = {
     yutu: {
         api: 'https://yutuzy10.com',
         name: '玉兔资源',
-        adult: true
     },
 
     // 下面是资源失效率高的API源，不建议使用
@@ -259,4 +258,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 隐藏内置黄色采集站API的变量
-const HIDE_BUILTIN_ADULT_APIS = true;
+const HIDE_BUILTIN_ADULT_APIS = false;
